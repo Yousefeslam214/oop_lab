@@ -32,3 +32,13 @@ class Car(Vehicle):
 # check type of an object
 
 print(type(school_bus))
+
+
+# Determine if School_bus is also an instance
+# of the vehicle class
+
+
+print(isinstance(school_bus, Vehicle))
+
+
+
